@@ -1,0 +1,403 @@
+
+@charset "UTF-8";
+@font-face{
+    font-family:"icons";
+    src: url("../font/icons.eot");
+    /* IE9 */
+    src:url("../font/icons.eot?#iefix") format("embedded-opentype"),url("../font/icons.woff") format("woff"),url("../font/icons.ttf") format("truetype"),url("../font/icons.svg#iconfont") fonmat("svg");
+    /*ios 4.1-*/
+}
+body,div,ul,ol,li,p,dl,dt,dd,h1,h2,h3,h4,button{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    outline:0;
+}
+
+.yahei, body,input,select,textarea{
+    font-family:"microsoft yahei";
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background:#E8EAEC;
+    margin:0 auto;
+    color:#333;
+}
+
+input,select, textarea{
+    border:0;
+    outline:0;
+    color:#333;
+    padding:0;
+    margin:0;
+}
+input::-webkit-input-placeholder{
+    color:#ccc;
+}
+
+ul,ol,li{
+    list-style:none;
+    list-style-type:none;
+}
+
+em,i{
+    font-size: normal;
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+.back{
+  position: absolute;
+  color: white;
+  left: 1rem;
+  z-index: 5;
+}
+
+.back:hover{
+  cursor: pointer;
+}
+
+
+.container{
+    overflow:hidden;
+    background: #e8eaec;
+    min-height:100%;
+    position: relative;
+}
+    .container.no-top{
+        padding-top:0;
+    }
+    /* .container:before,.container:after{
+        content:"";
+        display:block;
+    }
+    .container:before{
+        height:2.75rem;
+    } */
+    .container:after{
+        height:0.625rem;
+    }
+
+    .mt20{
+        margin: top 0.625rem;
+    }
+
+
+
+
+
+.top{
+    font-size: 0.875rem;
+    height: 2.75em;
+    line-height:2.75rem;
+    background-color:#3297fd;
+    position:fixed;
+    top:0;
+    z-index:9;
+    width:100%;
+}
+    .top h1{
+        text-align:center;
+        color:#fff;
+        font-size: 0.9375rem;
+    }
+
+.footer{
+    height:2.75rem;
+}
+    .footer ul{
+        position:fixed;
+        bottom:0;
+        width:100%;
+        padding-top:0.15625rem;
+        height:2.59375rem;
+        font-size:0.5625rem;
+        background:#e3e3e3;
+        border-top:2px #dcdcdc solid;
+    }
+    .footer li{
+        float: left;
+        width:33.3%;
+        overflow:hidden;
+        text-align:center;
+    }
+    .footer p:before{
+        display:block;
+        font-family:'icons';
+        line-height:1.5625rem;
+        font-size:1.4375rem;
+        color:#777;
+    }
+    .footer p.loan:before{
+        content:"";
+    }
+    .footer p.credit:before{
+        content:"";
+    }
+    .footer p.user:before {
+        content: ""; }
+    .footer p.on, .footer p.on:before {
+    color: #3297fd; }
+
+      
+    .footerHover, .footerHover:before{
+      color:#ff0000;
+      cursor: pointer;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.indexBanner{
+    width:100%;
+    height:10.6875rem;
+    overflow:hidden;
+    position:relative;
+}
+    .indexBanner ul{
+        width:9999em;
+    }
+    .indexBanner li{
+        float:left;
+    }
+    .indexBanner img{
+        display:block;
+        height:10.6875rem;
+    }
+    .indexBanner .prev, .indexBanner .next{
+        display:none;
+    }
+    .indexBanner.tag{
+        position:absolute;
+        bottom:0.76875rem;
+        left:0;
+        width:100%;
+        text-align: center;
+    }
+        .indexBanner.tag span{
+            display: inline-block;
+            width:11px;
+            height:11px;
+            border-radius: 6px;
+            text-indent:-999em;
+            border:1px solid #fff;
+            overflow:hidden;
+            margin:0 6px;
+        }
+        .indexBanner.tag .on{
+            background:#fff;
+        }
+
+.indexList{
+    padding-left:0.9375rem;
+    background: #fff;
+    position: relative;
+    margin-top: 2.5rem;
+}
+    .indexList li{
+        color: #999;
+        font-size: 0.75rem;
+        height:4.4625rem;
+        padding:1.25rem 0 0 4.25rem;
+        border-bottom:1px solid #e8e8e8;
+        position:relative;
+    }
+        .indexList li:last-child{
+            border-bottom:0;
+        }
+        .indexList li b{
+            display: block;
+            color:#333;
+            line-height: 1.5rem;
+        }
+        .indexList li:before{
+            display:block;
+            content:"";
+            width:3.4375rem;
+            height:3.4375rem;
+            background:url(../img/indexIcon0728.png) no-repeat;
+            background-size:100%;
+            position:absolute;
+            top:1rem;
+            left:0;
+        }
+        .indexList .icon02:before{
+            background-position: 0% 33.3%;
+        }
+        .indexList .icon03:before{
+            background-position:0% 66.6%;
+        }
+        .indexList .icon04:before{
+            background-position:0% 100%;
+        }
+        .indexList:hover{
+          cursor: pointer;
+        }
+
+
+.loanBanner{
+    height:10.875rem;
+    color:#fff;
+    margin-top:-4rem;
+    position:relative;
+}
+    .loanBanner img{
+        height:67%;
+        position:absolute;
+        z-index:1;
+        top: 6rem;
+    }
+    .loanBanner p{
+        width:100%;
+        font-size: 1rem;
+        text-align:center;
+        position:absolute;
+        top:3.75rem;
+        left:0;
+        z-index:2;
+    }
+        .loanBanner p .tit{
+            display: block;
+            background-color: blue;
+            font-size: 1.3125rem;
+            padding-bottom: 0.5rem;
+        }
+    .loanBanner .back{
+        color:#fff;
+        width:2rem;
+        height:2rem;
+        line-height:2rem;
+        text-align:center;
+        text-decoration: none;
+        position:absolute;
+        top:1.5625rem;
+        left:0;
+        z-index:3;
+    }
+        .loanBanner .back:after{
+            display:blcok;
+            font-family:"icons";
+            content:"";
+            cursor: pointer;
+        }
+
+
+
+    
+
+@media only screen and (min-width:640px){
+    html{
+        font-size: 32px;
+        background:#8cbc8b;
+    }
+    body{
+        width:640px;
+        margin:0 auto;
+    }
+
+    .top, .btn-float, .footer ul{
+        width: 640px;
+    }
+}
+
+@media only screen and(min-width:620px) and (max-width:640px){
+    html{
+        font-size:32px;}
+    }
+@media only screen and(min-width:600px) and (max-width:620px){
+    html{
+        font-size:31px;}
+    }
+@media only screen and (min-width: 580px) and (max-width: 600px) {
+    html {
+      font-size: 30px; } 
+    }
+  @media only screen and (min-width: 560px) and (max-width: 580px) {
+    html {
+      font-size: 29px; } 
+    }
+  @media only screen and (min-width: 540px) and (max-width: 560px) {
+    html {
+      font-size: 28px; } 
+    }
+  @media only screen and (min-width: 520px) and (max-width: 540px) {
+    html {
+      font-size: 27px; } 
+    }
+  @media only screen and (min-width: 500px) and (max-width: 520px) {
+    html {
+      font-size: 26px; } 
+    }
+  @media only screen and (min-width: 480px) and (max-width: 500px) {
+    html {
+      font-size: 25px; } 
+    }
+  @media only screen and (min-width: 460px) and (max-width: 480px) {
+    html {
+      font-size: 24px; } 
+    }
+  @media only screen and (min-width: 440px) and (max-width: 460px) {
+    html {
+      font-size: 23px; } 
+    }
+  @media only screen and (min-width: 430px) and (max-width: 440px) {
+    html {
+      font-size: 22px; } 
+    }
+  @media only screen and (min-width: 420px) and (max-width: 430px) {
+    html {
+      font-size: 21.5px; } 
+    }
+  @media only screen and (min-width: 410px) and (max-width: 420px) {
+    html {
+      font-size: 21px; } 
+    }
+  @media only screen and (min-width: 400px) and (max-width: 410px) {
+    html {
+      font-size: 20.5px; } 
+    }
+  @media only screen and (min-width: 380px) and (max-width: 400px) {
+    html {
+      font-size: 20px; } 
+    }
+  @media only screen and (min-width: 360px) and (max-width: 380px) {
+    html {
+      font-size: 19px; } 
+    }
+  @media only screen and (min-width: 340px) and (max-width: 360px) {
+    html {
+      font-size: 18px; } 
+    }
+  @media only screen and (min-width: 320px) and (max-width: 340px) {
+    html {
+      font-size: 17px; } 
+    }
+  @media only screen and (min-width: 300px) and (max-width: 320px) {
+    html {
+      font-size: 16px; } 
+    }
+  @media only screen and (max-width: 300px) {
+    html {
+      font-size: 15px; } 
+    }
+  
+
+
+

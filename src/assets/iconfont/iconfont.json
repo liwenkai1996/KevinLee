@@ -1,0 +1,79 @@
+{
+  "id": "2710492",
+  "name": "lidemo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21231298",
+      "name": "菜单",
+      "font_class": "faxian-29",
+      "unicode": "f486",
+      "unicode_decimal": 62598
+    },
+    {
+      "icon_id": "21231450",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "f494",
+      "unicode_decimal": 62612
+    },
+    {
+      "icon_id": "21231509",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "f497",
+      "unicode_decimal": 62615
+    },
+    {
+      "icon_id": "21231652",
+      "name": "审核",
+      "font_class": "shenhe",
+      "unicode": "f498",
+      "unicode_decimal": 62616
+    },
+    {
+      "icon_id": "21231776",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "f49a",
+      "unicode_decimal": 62618
+    },
+    {
+      "icon_id": "21231847",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "f49e",
+      "unicode_decimal": 62622
+    },
+    {
+      "icon_id": "21231867",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "f4a3",
+      "unicode_decimal": 62627
+    },
+    {
+      "icon_id": "21231878",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "f4a5",
+      "unicode_decimal": 62629
+    },
+    {
+      "icon_id": "21231900",
+      "name": "银行卡",
+      "font_class": "yinhangka",
+      "unicode": "f4a7",
+      "unicode_decimal": 62631
+    },
+    {
+      "icon_id": "21231908",
+      "name": "优惠券",
+      "font_class": "youhuiquan",
+      "unicode": "f4a8",
+      "unicode_decimal": 62632
+    }
+  ]
+}
